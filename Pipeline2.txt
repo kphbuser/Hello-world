@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Git') {
             steps {
-                git 'https://github.com/kphbuser/Pipeline.git'
+                git 'https://github.com/kphbuser/Hello-world.git'
             }
         }
         stage('IncludeMVN') {
